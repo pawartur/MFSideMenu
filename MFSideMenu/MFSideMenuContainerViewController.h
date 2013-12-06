@@ -71,5 +71,7 @@ typedef enum {
 
 // can be used to attach a pan gesture recognizer to a custom view
 - (UIPanGestureRecognizer *)panGestureRecognizer;
+- (BOOL) centerViewControllerPanEnabled;
+- (BOOL) sideMenuPanEnabled;
 
 @end
